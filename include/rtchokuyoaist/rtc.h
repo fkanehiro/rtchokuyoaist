@@ -33,12 +33,13 @@
 #include <hokuyoaist/hokuyoaist.h>
 #include <rtm/Manager.h>
 #include <rtm/DataFlowComponentBase.h>
-#include <rtm/OutPort.h>
-#include <rtm/CorbaPort.h>
-#include <time.h>
 
 #include "ranger_impl.h"
 #include "hokuyoaist_impl.h"
+
+#include <rtm/OutPort.h>
+#include <rtm/CorbaPort.h>
+#include <time.h>
 
 using namespace RTC;
 
